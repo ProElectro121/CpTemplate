@@ -6,6 +6,11 @@ using namespace std;
 #define endl '\n'
 #define all(a) (a).begin(),(a).end()
 
+void print(vector<int> &a){
+    for(auto &i: a) cout << i << " ";
+    cout << endl;
+}
+
 int gcd(int a, int b) {
     if (!a || !b)
         return a | b;
